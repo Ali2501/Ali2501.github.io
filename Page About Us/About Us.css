@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+.header{
+	height: 50px;
+	background: #000000;
+	padding: 20px;
+	color:#fff;
+}
+
+.header img {
+	float: left;
+	margin-right: 20px;	
+}
+.header h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.header h5{
+	font-size: 20px;
+}
+.logo{
+	line-height: 100px;
+	float : left;
+	text-transform: uppercase;
+}
+.menu{
+	float:right;
+	line-height:0 -100px;
+	font-family: arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: -40px;
+	margin-right: 50px;
+}
+.menu a{
+	color: #fff;
+	text-decoration:none;
+	padding:0 10px;
+}
+.ab {
+	
+	color:white;
+
+}
+.ab img{
+	width: 200px;
+	height: 180px;
+}
+.ab h1{
+	margin-bottom:20px;
+	font-size: 40px;
+}
+.ab p{
+	font-size: 30px;
+}
+.ab q{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.kotak{
+	padding: 20px;
+	width: 200px;
+	height: 10px;
+	background: white;
+	text-align: center;
+}
+.kotak-logo img{
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	margin:0px 10px 0px 525px;
+}
+.kotak-logo {
+	float: 	left;
+	margin: 0 auto;
+}
+body {
+	background-image: url("a.png");
+	width:100%;
+	height: 100%;
+	background-size: cover;
+}
