@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.header{
+	height: 50px;
+	background: #000000;
+	padding: 20px;
+	color:#fff;
+}
+.header img {
+	float: left;
+	margin-right: 20px;	
+}
+.header h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.header h5{
+	font-size: 20px;
+}
+.logo{
+	line-height: 100px;
+	float : left;
+	text-transform: uppercase;
+}
+.profil{
+	padding: 10px;
+	background-color: white;
+	width:250px;
+	height: 60px;
+	float: right;
+	margin:-70px 2% 0px 0px;
+	font-size: 19px;
+}
+.profil p {
+	float: left;
+	margin:0px 0px 10px 0px;
+}
+.profil img {
+	width:32px;
+	height: 32px;
+	margin:10px 0px 0px 20px;
+}
+/*dropdown Logout*/
+.profil-btn {
+background-color: white;
+  margin: -10px;
+  margin-top: -10px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.profil {
+  padding: 20px;
+	position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  padding: 10px;
+	background-color: white;
+	width:250px;
+	height: 60px;
+	float: right;
+	margin:-70px 2% 0px 0px;
+	font-size: 19px;	
+}
+.profil-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.profil-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+.profil-content a:hover {
+
+
+  background-color: #f1f1f1}
+
+.profil:hover .profil-content {
+  display: block;
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+.profil:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*end profil*/
+
+.LoMa img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+}
+.LoMa img:hover{
+	transform: scale(1.2 , 1.2);
+}
+.LoMa {
+	width: 22%;
+	float: left;
+	margin:30px 3% 0% 0%;
+}
+
+.LoMa p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.LoMa1 img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+}
+.LoMa1 img:hover{
+	transform: scale(1.2 , 1.2);
+}
+.LoMa1 {
+	width: 22%;
+	float: left;
+	margin:50px 4% 10% 6%;
+}
+
+.LoMa1 p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+body {
+	background-image: url("apeel.jpg");
+	width:100%;
+	height: 100%;
+	background-size: cover;
+}
+/*dropdown Materi*/
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: -10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dropdown {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.bawahnya-nav{
+	background-color: black;
+
+}
+/*end dropdown*/
+
