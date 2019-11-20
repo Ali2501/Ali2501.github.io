@@ -9,7 +9,7 @@
 <body>
 
 	<div class="header">
-		<img src="Logo.png" width="60px" height="60px">
+		<img src="logo.png" width="60px" height="60px">
 		<h2>Brilliance</h2>
 		<h5>Bersama Kami, Meraih Prestasi</h5>
 	</div>
@@ -22,7 +22,7 @@
   	</button>
   <div class="profil-content">
     <a href="Ganti.html">Ganti Password</a>
-    <a href="index.html">Logout</a>
+    <a href="Login.html">Logout</a>
   </div>
 </div>
 <div class="dropdown">
@@ -47,23 +47,47 @@
   <a href="Forum.html">Forum</a>
 </div>
 </div>
-</div>
-
-	
+</div>	
 	<div class="ab">
 		<img src="logodw.png">
 		<p class="ab-p">FORUM</p>
 	</div>
 	<div class= "ab"><br><br>
+		<form name="Forum" onSubmit="return validateForm();" action="Kursus.html" method="GET">
 		<h1> Judul Pembahasan </h1>
 			<label for="Pembahasan"></label>
-			<input class="csubmit" type="text">
+			<input class="csubmit" type="text" name="Judul">
 		<br></br>
-			<h2> Deskripsi Pokok Pembahasan </h2>
-			<input class="csubmit" type="text"><br><br>
+		<h2> Deskripsi Pokok Pembahasan </h2>
+			<input class="csubmit" type="text" name="Deskripsi">
+		<br><br>
 		<h3> Lampiran </h3><br>
-			<input type="file"><br><br>
+			<input class="csubmit" type="file" name="Lampiran">
+		<br><br>
 		<center><button  type="submit" class="tombol">Post Forum</button></center>
 	</div>
+
+<script>
+    function validateForm() {
+
+	if(document.Forum.Judul.value == ""){
+        	alert("Judul Bahasan harus terisi");
+        	return false;
+        }
+        else if(document.Forum.Deskripsi.value == ""){
+        	alert("Gambarkan Deskripsi Pokok Anda");
+        	return false;
+        }
+        else if(document.Forum.Lampiran.value == ""){
+        	alert("Unggah lah file pendukung Deskripsi Anda");
+        	return false;
+        }
+        else{
+        	alert("Forum berhasil dibuat");
+            return true;
+        }
+    }
+</script>
+
 </body>
 </html>
